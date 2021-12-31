@@ -1,0 +1,60 @@
+{
+	"name": "Platnormaloscila4",
+	"plugin-id": "Sprite",
+	"sid": 916038227953593,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 968069322005812
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Seno",
+			"sid": 919246639979542
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 320,
+						"height": 320,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 1712968,
+						"collisionPoly": {
+							"points": [
+								0.0125,
+								0.49687499999999984,
+								0,
+								0.30625,
+								0.9937499999999999,
+								0.309375,
+								1,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 232317985571486,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

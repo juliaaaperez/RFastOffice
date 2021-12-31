@@ -1,0 +1,22 @@
+{
+	"name": "Viñetapregunta3",
+	"plugin-id": "Text",
+	"sid": 630901078376314,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Variable1",
+			"type": "number",
+			"desc": "",
+			"sid": 531504740456653
+		}
+	],
+	"behaviorTypes": [
+		{
+			"behaviorId": "jumpthru",
+			"name": "SaltoATravés",
+			"sid": 420513785679487
+		}
+	],
+	"effectTypes": []
+}

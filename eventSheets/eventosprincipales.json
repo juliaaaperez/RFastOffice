@@ -1,0 +1,1368 @@
+{
+	"name": "EventosPRINCIPALES",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 881369155858505,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 512425775740159,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 293923378946297
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 987453687264593,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-mirrored",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 636800370849840,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 893612159795269
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-animation-speed",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 395931331149156,
+					"parameters": {
+						"comparison": 0,
+						"number": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 994856482519534,
+					"parameters": {
+						"animation": "\"Idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 359249872847774
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-animation-speed",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 916702343233527,
+					"parameters": {
+						"comparison": 4,
+						"number": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 228741057782661,
+					"parameters": {
+						"animation": "\"Run\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 988553605668131
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-jumping",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 900037336850299,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 316971936478204,
+					"parameters": {
+						"animation": "\"Jump\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 897285281278506
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 572113553726556,
+					"parameters": {
+						"object": "PersonajeEncuentro1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-ignoring-input",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 495125454060108,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"input": "start-ignoring"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 644595730594610,
+					"parameters": {
+						"object-to-create": "Viñetabloqueprincipal",
+						"layer": "1",
+						"x": "640",
+						"y": "655",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 839882982729749,
+					"parameters": {
+						"object-to-create": "Viñetapregunta1",
+						"layer": "1",
+						"x": "370",
+						"y": "536",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 577299821666515,
+					"parameters": {
+						"object-to-create": "Viñetabloqueverde",
+						"layer": "1",
+						"x": "639.5",
+						"y": "673",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 245621595924747,
+					"parameters": {
+						"object-to-create": "Viñeta1bloqueazulTRUE",
+						"layer": "1",
+						"x": "496",
+						"y": "629",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 831783373042979,
+					"parameters": {
+						"object-to-create": "Viñetarespuesta1",
+						"layer": "1",
+						"x": "444",
+						"y": "642",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 160990869168235,
+					"parameters": {
+						"object-to-create": "Viñeta1bloqueazulFALSE",
+						"layer": "1",
+						"x": "751",
+						"y": "632",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 648605746162085,
+					"parameters": {
+						"object-to-create": "Viñetarespuesta2",
+						"layer": "1",
+						"x": "726",
+						"y": "641",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 512052761721337,
+					"parameters": {
+						"object-to-create": "VIÑETAPERSONAJE0",
+						"layer": "1",
+						"x": "329",
+						"y": "619",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 995151245965630,
+					"parameters": {
+						"object-to-create": "VIÑETAPERSONAJE1",
+						"layer": "1",
+						"x": "639",
+						"y": "627",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 642412601806732,
+					"parameters": {
+						"seconds": "6"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñetabloqueprincipal",
+					"sid": 258763941158073
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñetapregunta1",
+					"sid": 157308921534148
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñetabloqueverde",
+					"sid": 268917467743449
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñeta1bloqueazulTRUE",
+					"sid": 605343895586043
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñeta1bloqueazulFALSE",
+					"sid": 173892676979626
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñetarespuesta1",
+					"sid": 357974936130489
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñetarespuesta2",
+					"sid": 425060750459792
+				},
+				{
+					"id": "destroy",
+					"objectClass": "VIÑETAPERSONAJE0",
+					"sid": 234553659893227
+				},
+				{
+					"id": "destroy",
+					"objectClass": "VIÑETAPERSONAJE1",
+					"sid": 106077209333815
+				},
+				{
+					"id": "set-ignoring-input",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 826497540777045,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"input": "stop-ignoring"
+					}
+				}
+			],
+			"sid": 880092716981228
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-landed",
+					"objectClass": "VIÑETAPERSONAJE1",
+					"sid": 422744316724227,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 992232412891238,
+					"parameters": {
+						"object-to-create": "spritemanobien",
+						"layer": "1",
+						"x": "851",
+						"y": "627",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "set-value",
+					"objectClass": "ControlDeslizante",
+					"sid": 567187415731022,
+					"parameters": {
+						"value": "20"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 592417049791837,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "spritemanobien",
+					"sid": 913508249661655
+				}
+			],
+			"sid": 378854623263126
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "VIÑETAPERSONAJE1",
+					"sid": 891189236990028,
+					"parameters": {
+						"object": "viñetarecdecaida2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 400157175550497,
+					"parameters": {
+						"object-to-create": "spritemanomal",
+						"layer": "1",
+						"x": "857",
+						"y": "635",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 966350446803471,
+					"parameters": {
+						"object-to-create": "avisorespuestaincorrecta",
+						"layer": "1",
+						"x": "633",
+						"y": "391",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 409764577509175,
+					"parameters": {
+						"object-to-create": "Textoincorrecta",
+						"layer": "1",
+						"x": "465.5",
+						"y": "323",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 373570599261982,
+					"parameters": {
+						"object-to-create": "marcoreinicioprincipal",
+						"layer": "1",
+						"x": "639.5",
+						"y": "462",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 367843963946434,
+					"parameters": {
+						"object-to-create": "textoreinicioprincipal",
+						"layer": "1",
+						"x": "573",
+						"y": "429",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 151056730590370
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 972260732392035,
+					"parameters": {
+						"object": "PersonajeEncuentro2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-ignoring-input",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 730907990168358,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"input": "start-ignoring"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 495068182859573,
+					"parameters": {
+						"object-to-create": "Viñetabloqueprincipal",
+						"layer": "1",
+						"x": "640",
+						"y": "655",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 307989392557890,
+					"parameters": {
+						"object-to-create": "Viñetapregunta2",
+						"layer": "1",
+						"x": "378",
+						"y": "534",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 952933362048073,
+					"parameters": {
+						"object-to-create": "Viñetabloqueverde",
+						"layer": "1",
+						"x": "639.5",
+						"y": "673",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 954778168049530,
+					"parameters": {
+						"object-to-create": "Viñeta2bloqueazulTRUE",
+						"layer": "1",
+						"x": "751",
+						"y": "632",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 216276663304326,
+					"parameters": {
+						"object-to-create": "Viñetarespuesta1",
+						"layer": "1",
+						"x": "444",
+						"y": "642",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 667948715290627,
+					"parameters": {
+						"object-to-create": "Viñeta2bloqueazulFALSE",
+						"layer": "1",
+						"x": "496",
+						"y": "629",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 411319319321146,
+					"parameters": {
+						"object-to-create": "Viñetarespuesta2",
+						"layer": "1",
+						"x": "726",
+						"y": "641",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 930939651736419,
+					"parameters": {
+						"object-to-create": "VIÑETAPERSONAJE0",
+						"layer": "1",
+						"x": "329",
+						"y": "619",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 525686230067914,
+					"parameters": {
+						"object-to-create": "VIÑETAPERSONAJE2",
+						"layer": "1",
+						"x": "638",
+						"y": "628",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 433271611966792,
+					"parameters": {
+						"seconds": "6"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñetabloqueprincipal",
+					"sid": 710713578164201
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñetapregunta2",
+					"sid": 615753501539779
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñetabloqueverde",
+					"sid": 316642786679089
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñeta2bloqueazulTRUE",
+					"sid": 361635878697072
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñeta2bloqueazulFALSE",
+					"sid": 512718251302542
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñetarespuesta1",
+					"sid": 932384740413846
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñetarespuesta2",
+					"sid": 605495320567093
+				},
+				{
+					"id": "destroy",
+					"objectClass": "VIÑETAPERSONAJE0",
+					"sid": 184974673700869
+				},
+				{
+					"id": "destroy",
+					"objectClass": "VIÑETAPERSONAJE2",
+					"sid": 410861098254828
+				},
+				{
+					"id": "set-ignoring-input",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 863783601238712,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"input": "stop-ignoring"
+					}
+				}
+			],
+			"sid": 896102763187117
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "VIÑETAPERSONAJE2",
+					"sid": 203580104434868,
+					"parameters": {
+						"object": "viñetarecdecaida"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 769827637777086,
+					"parameters": {
+						"object-to-create": "spritemanomal",
+						"layer": "1",
+						"x": "857",
+						"y": "635",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 732329795079473,
+					"parameters": {
+						"object-to-create": "avisorespuestaincorrecta",
+						"layer": "1",
+						"x": "633",
+						"y": "391",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 521850599914330,
+					"parameters": {
+						"object-to-create": "Textoincorrecta",
+						"layer": "1",
+						"x": "465.5",
+						"y": "323",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 914267342329298,
+					"parameters": {
+						"object-to-create": "marcoreinicioprincipal",
+						"layer": "1",
+						"x": "639.5",
+						"y": "462",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 376367262730018,
+					"parameters": {
+						"object-to-create": "textoreinicioprincipal",
+						"layer": "1",
+						"x": "573",
+						"y": "429",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 222635661746389
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-landed",
+					"objectClass": "VIÑETAPERSONAJE2",
+					"sid": 919071848896333,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 520313130864317,
+					"parameters": {
+						"object-to-create": "spritemanobien",
+						"layer": "1",
+						"x": "851",
+						"y": "627",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "set-value",
+					"objectClass": "ControlDeslizante",
+					"sid": 465904564604113,
+					"parameters": {
+						"value": "10"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 616396286841951,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "spritemanobien",
+					"sid": 729395394909492
+				}
+			],
+			"sid": 584203664206466
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 724944944884567,
+					"parameters": {
+						"object": "PersonajeEncuentro3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-ignoring-input",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 800631814295176,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"input": "start-ignoring"
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 748513994483909,
+					"parameters": {
+						"object-to-create": "Viñetabloqueprincipal",
+						"layer": "1",
+						"x": "640",
+						"y": "655",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 458896695480044,
+					"parameters": {
+						"object-to-create": "Viñetapregunta3",
+						"layer": "1",
+						"x": "408.5",
+						"y": "534",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 253272612071989,
+					"parameters": {
+						"object-to-create": "Viñetabloqueverde",
+						"layer": "1",
+						"x": "639.5",
+						"y": "673",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 837095239459517,
+					"parameters": {
+						"object-to-create": "Viñeta3bloqueazulTRUE",
+						"layer": "1",
+						"x": "751",
+						"y": "632",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 940620438133173,
+					"parameters": {
+						"object-to-create": "Viñetarespuesta1",
+						"layer": "1",
+						"x": "444",
+						"y": "642",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 280286890513703,
+					"parameters": {
+						"object-to-create": "Viñeta3bloqueazulFALSE",
+						"layer": "1",
+						"x": "496",
+						"y": "629",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 330746200288531,
+					"parameters": {
+						"object-to-create": "Viñetarespuesta2",
+						"layer": "1",
+						"x": "726",
+						"y": "641",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 199710508377141,
+					"parameters": {
+						"object-to-create": "VIÑETAPERSONAJE0",
+						"layer": "1",
+						"x": "329",
+						"y": "619",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 386692381866397,
+					"parameters": {
+						"object-to-create": "VIÑETAPERSONAJE3",
+						"layer": "1",
+						"x": "638",
+						"y": "628",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 352520320753662,
+					"parameters": {
+						"seconds": "6"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñetabloqueprincipal",
+					"sid": 614362132180427
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñetapregunta3",
+					"sid": 564903322330200
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñetabloqueverde",
+					"sid": 834552196486168
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñeta3bloqueazulTRUE",
+					"sid": 465673764531440
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñeta3bloqueazulFALSE",
+					"sid": 784850504121763
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñetarespuesta1",
+					"sid": 115026784421042
+				},
+				{
+					"id": "destroy",
+					"objectClass": "Viñetarespuesta2",
+					"sid": 568991482123491
+				},
+				{
+					"id": "destroy",
+					"objectClass": "VIÑETAPERSONAJE0",
+					"sid": 770475958311254
+				},
+				{
+					"id": "destroy",
+					"objectClass": "VIÑETAPERSONAJE3",
+					"sid": 502337375314985
+				},
+				{
+					"id": "set-ignoring-input",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 999106051839997,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"input": "stop-ignoring"
+					}
+				}
+			],
+			"sid": 226857204594973
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "VIÑETAPERSONAJE3",
+					"sid": 882914999290803,
+					"parameters": {
+						"object": "viñetarecdecaida"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 473891417862616,
+					"parameters": {
+						"object-to-create": "spritemanomal",
+						"layer": "1",
+						"x": "857",
+						"y": "635",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 626019601643352,
+					"parameters": {
+						"object-to-create": "avisorespuestaincorrecta",
+						"layer": "1",
+						"x": "633",
+						"y": "391",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 829491215205619,
+					"parameters": {
+						"object-to-create": "Textoincorrecta",
+						"layer": "1",
+						"x": "465.5",
+						"y": "323",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 899828970690638,
+					"parameters": {
+						"object-to-create": "marcoreinicioprincipal",
+						"layer": "1",
+						"x": "639.5",
+						"y": "462",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 925879648510448,
+					"parameters": {
+						"object-to-create": "textoreinicioprincipal",
+						"layer": "1",
+						"x": "573",
+						"y": "429",
+						"create-hierarchy": false
+					}
+				}
+			],
+			"sid": 933428429384925
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-landed",
+					"objectClass": "VIÑETAPERSONAJE3",
+					"sid": 730367103599712,
+					"behaviorType": "Plataforma"
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 887601601882224,
+					"parameters": {
+						"object-to-create": "spritemanobien",
+						"layer": "1",
+						"x": "851",
+						"y": "627",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "set-value",
+					"objectClass": "ControlDeslizante",
+					"sid": 613058478872435,
+					"parameters": {
+						"value": "30"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 249360186894998,
+					"parameters": {
+						"seconds": "1.0"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "spritemanobien",
+					"sid": 516126772622038
+				}
+			],
+			"sid": 276229993922311
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 805326337481536,
+					"parameters": {
+						"object": "PersonajeEncuentro4JEFE"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 356363559858855,
+					"parameters": {
+						"object-to-create": "cuadrofelicidades",
+						"layer": "1",
+						"x": "637",
+						"y": "283",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 410133524183995,
+					"parameters": {
+						"object-to-create": "Textofelicidades",
+						"layer": "1",
+						"x": "539",
+						"y": "218",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 316499944093159,
+					"parameters": {
+						"object-to-create": "Textofelicidades2",
+						"layer": "1",
+						"x": "374",
+						"y": "324",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 979099971425562,
+					"parameters": {
+						"seconds": "3"
+					}
+				},
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 714951353373371,
+					"parameters": {
+						"layout": "Menú principal"
+					}
+				}
+			],
+			"sid": 867106972402005
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 887806581865938,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Menuexitprincipal"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 210629006854211,
+					"parameters": {
+						"layout": "Menú principal"
+					}
+				}
+			],
+			"sid": 603982688920301
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-outside-layout",
+					"objectClass": "aaProtapersonaje0",
+					"sid": 548478483679019
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 456354936505656,
+					"parameters": {
+						"object-to-create": "AvisoNOCAIGAS",
+						"layer": "1",
+						"x": "640",
+						"y": "321.5",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 123302723926428,
+					"parameters": {
+						"object-to-create": "Textocuidadoconplat",
+						"layer": "1",
+						"x": "404.5",
+						"y": "222",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 914946914212135,
+					"parameters": {
+						"object-to-create": "marcoblancoreinicio",
+						"layer": "1",
+						"x": "640",
+						"y": "362",
+						"create-hierarchy": true
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 941659765847025,
+					"parameters": {
+						"object-to-create": "textoreinicio1",
+						"layer": "1",
+						"x": "572.5",
+						"y": "330",
+						"create-hierarchy": true
+					}
+				}
+			],
+			"sid": 255400622295084
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 999216897303396,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "marcoblancoreinicio"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 765594351454924
+				}
+			],
+			"sid": 815700704309710
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 401792603746938,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "marcoreinicioprincipal"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 199158585953300,
+					"parameters": {
+						"layout": "Escena principal"
+					}
+				}
+			],
+			"sid": 187745891639160
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-value",
+					"objectClass": "ControlDeslizante",
+					"sid": 117655266601632,
+					"parameters": {
+						"comparison": 0,
+						"value": "30"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 343758720473283,
+					"parameters": {
+						"object-to-create": "avisovedondeeljefe",
+						"layer": "1",
+						"x": "635",
+						"y": "363.5",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 339837096281641,
+					"parameters": {
+						"object-to-create": "textocompletado",
+						"layer": "1",
+						"x": "404",
+						"y": "316",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "create-object",
+					"objectClass": "System",
+					"sid": 840606309434913,
+					"parameters": {
+						"object-to-create": "textocompletado2",
+						"layer": "1",
+						"x": "396",
+						"y": "388",
+						"create-hierarchy": false
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 809715172563335,
+					"parameters": {
+						"seconds": "1.5"
+					}
+				},
+				{
+					"id": "destroy",
+					"objectClass": "ControlDeslizante",
+					"sid": 427161630591022
+				},
+				{
+					"id": "destroy",
+					"objectClass": "avisovedondeeljefe",
+					"sid": 826109752176597
+				},
+				{
+					"id": "destroy",
+					"objectClass": "textocompletado",
+					"sid": 653420733076048
+				},
+				{
+					"id": "destroy",
+					"objectClass": "textocompletado2",
+					"sid": 385789531192668
+				}
+			],
+			"sid": 573543545023109
+		}
+	],
+	"sid": 332512745671826
+}

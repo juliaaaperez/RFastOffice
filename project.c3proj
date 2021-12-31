@@ -1,0 +1,353 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 27602,
+	"name": "proyectoinf",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "TiledBg",
+			"name": "Fondo en mosaico",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Teclado",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "sliderbar",
+			"name": "Control deslizante",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Sólido",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Plataforma",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "jumpthru",
+			"name": "Salto a través",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Seno",
+			"author": "Scirra",
+			"version": "r276.2",
+			"bundled": false
+		}
+	],
+	"uniqueId": "9zfa2vbmjd5",
+	"objectTypes": {
+		"items": [
+			"PersonajeEncuentro2",
+			"PersonajeEncuentro1",
+			"PersonajeEncuentro3",
+			"PersonajeEncuentro4JEFE",
+			"Platpers0",
+			"Platpers2",
+			"Platpers4",
+			"Platpers1",
+			"aaProtapersonaje0",
+			"Platpers3",
+			"Viñetabloqueprincipal",
+			"VIÑETAPERSONAJE0",
+			"VIÑETAPERSONAJE2",
+			"VIÑETAPERSONAJE3",
+			"VIÑETAPERSONAJE4",
+			"FondomosaicoOpción2",
+			"NegroFondomargen",
+			"Viñetapregunta1",
+			"Viñetabloqueverde",
+			"Viñeta1bloqueazulTRUE",
+			"Viñeta1bloqueazulFALSE",
+			"Viñetarespuesta1",
+			"Viñetarespuesta2",
+			"Viñeta2bloqueazulFALSE",
+			"Viñeta3bloqueazulTRUE",
+			"Viñeta2bloqueazulTRUE",
+			"Viñeta3bloqueazulFALSE",
+			"Viñetapregunta2",
+			"Viñetapregunta3",
+			"Platnormalsolido1",
+			"Platnormalsolido2",
+			"Platnormaloscila1",
+			"Platnormaloscila2",
+			"Platnormalsolido3",
+			"Platnormalsolido4",
+			"Platnormalsolido5",
+			"Platnormaloscila3",
+			"Platnormaloscila4",
+			"Teclado",
+			"VIÑETAPERSONAJE1",
+			"Platnormalsolido6",
+			"Platnormalsolido7",
+			"MENUIMPROTA",
+			"MENUIM1",
+			"MENUIM2",
+			"MENUIM3",
+			"MENUIM4",
+			"textotítulo1",
+			"textotítulo2",
+			"MENUSelectordeopciones",
+			"textoJUGAR",
+			"Mouse",
+			"MENUFondoEnMosaico",
+			"MENUSelectordeopciones2",
+			"textoTUTORIAL",
+			"Menuexitprincipal",
+			"textoexitprincipal",
+			"FondoTUTORIAL",
+			"Textotitulotutorial",
+			"textoexptutorial",
+			"Menuexittutorial",
+			"textoexittutorial",
+			"AvisoNOCAIGAS",
+			"Textocuidadoconplat",
+			"marcoblancoreinicio",
+			"textoreinicio1",
+			"textoreinicio2",
+			"viñetarecdecaida",
+			"viñetarecdecaida2",
+			"cuadrofelicidades",
+			"Textofelicidades",
+			"Textofelicidades2",
+			"TUTORIALestoypreparado",
+			"textoEstoyPreparado",
+			"spritemanobien",
+			"spritemanomal",
+			"avisorespuestaincorrecta",
+			"marcoreinicioprincipal",
+			"Texto",
+			"Textoincorrecta",
+			"textoreinicioprincipal",
+			"ControlDeslizante",
+			"avisovedondeeljefe",
+			"textocompletado",
+			"textocompletado2",
+			"Platnormalsolido8",
+			"Platnormalsolido9"
+		],
+		"subfolders": []
+	},
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"Menú principal",
+			"Escena principal",
+			"Tutorial"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"EventosPRINCIPALES",
+			"EventosMENU",
+			"Hoja de eventos 3"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [],
+			"subfolders": []
+		},
+		"music": {
+			"items": [],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icono-16.png",
+					"type": "image/png",
+					"sid": 450240218365927,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icono-32.png",
+					"type": "image/png",
+					"sid": 354006623189828,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icono-64.png",
+					"type": "image/png",
+					"sid": 339099879832130,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icono-128.png",
+					"type": "image/png",
+					"sid": 662064666034085,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icono-256.png",
+					"type": "image/png",
+					"sid": 576148766198719,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icono-512.png",
+					"type": "image/png",
+					"sid": 354312191730879,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "logo-carga.png",
+					"type": "image/png",
+					"sid": 222019456106559,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Línea de tiempo 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": false,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"gpuPreference": "high-performance",
+		"scriptsType": "module",
+		"framerateMode": "vsync",
+		"compositingMode": "standard",
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https"
+	},
+	"viewportWidth": 1280,
+	"viewportHeight": 720,
+	"firstLayout": null
+}

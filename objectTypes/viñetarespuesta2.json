@@ -1,0 +1,16 @@
+{
+	"name": "Viñetarespuesta2",
+	"plugin-id": "Text",
+	"sid": 468503555808552,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Variable1",
+			"type": "number",
+			"desc": "",
+			"sid": 910463156902452
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

@@ -1,0 +1,58 @@
+{
+	"name": "EventosMENU",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 550531310734895,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "MENUSelectordeopciones"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 396716415838918,
+					"parameters": {
+						"layout": "Escena principal"
+					}
+				}
+			],
+			"sid": 828730333830651
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 958964468328700,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "MENUSelectordeopciones2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 117422740746832,
+					"parameters": {
+						"layout": "Tutorial"
+					}
+				}
+			],
+			"sid": 991223133552949
+		}
+	],
+	"sid": 449196977413648
+}

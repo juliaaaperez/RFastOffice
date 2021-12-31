@@ -1,0 +1,20 @@
+{
+	"name": "MENUFondoEnMosaico",
+	"plugin-id": "TiledBg",
+	"sid": 816018720232750,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"image": {
+		"width": 525,
+		"height": 525,
+		"originX": 0.5,
+		"originY": 0.5,
+		"originalSource": "",
+		"exportFormat": "png",
+		"exportQuality": 0.8,
+		"imageSpriteId": 4049601,
+		"useCollisionPoly": true
+	}
+}

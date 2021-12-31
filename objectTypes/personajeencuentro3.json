@@ -1,0 +1,57 @@
+{
+	"name": "PersonajeEncuentro3",
+	"plugin-id": "Sprite",
+	"sid": 472714723070718,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 320,
+						"height": 320,
+						"originX": 1.228125,
+						"originY": 0.378125,
+						"originalSource": "",
+						"exportFormat": "png",
+						"exportQuality": 0.8,
+						"imageSpriteId": 9338318,
+						"collisionPoly": {
+							"points": [
+								0.09375,
+								0.09375,
+								0.5,
+								0,
+								0.840625,
+								0.15625,
+								0.840625,
+								0.5,
+								0.715625,
+								0.715625,
+								0.5,
+								0.934375,
+								0.25,
+								0.746875,
+								0.09375,
+								0.5
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1
+					}
+				],
+				"sid": 569197298817538,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

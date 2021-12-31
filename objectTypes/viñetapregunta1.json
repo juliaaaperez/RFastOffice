@@ -1,0 +1,16 @@
+{
+	"name": "Viñetapregunta1",
+	"plugin-id": "Text",
+	"sid": 334896094852908,
+	"isGlobal": false,
+	"instanceVariables": [
+		{
+			"name": "Variable1",
+			"type": "number",
+			"desc": "",
+			"sid": 902918556380317
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

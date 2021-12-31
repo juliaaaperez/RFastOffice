@@ -1,0 +1,58 @@
+{
+	"name": "Hoja de eventos 3",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 839301221640356,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "Menuexittutorial"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 299620710621430,
+					"parameters": {
+						"layout": "Menú principal"
+					}
+				}
+			],
+			"sid": 931401713815753
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 441884676288352,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "TUTORIALestoypreparado"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 694287033533132,
+					"parameters": {
+						"layout": "Escena principal"
+					}
+				}
+			],
+			"sid": 550759715145710
+		}
+	],
+	"sid": 355005741753165
+}
